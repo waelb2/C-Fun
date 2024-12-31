@@ -10,7 +10,6 @@
 #define BLOCK_SIZE_SEGMENT_2 N*sizeof(info)
 
 typedef struct info  {
-
     int pid ;
     int rang ;
     int val ;

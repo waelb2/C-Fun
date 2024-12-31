@@ -33,7 +33,7 @@ int get_shared_block(char *file_name, int size, int project_id ){
 }
 
 // function to attach a shared memory block to adr procces
-char * attach_memory_block(char * file_name, int size ,int project_id ){
+char *attach_memory_block(char * file_name, int size ,int project_id ){
     int shmid = get_shared_block(file_name, size,project_id );
     char *memory_ptr;
     
